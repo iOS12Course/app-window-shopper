@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F63DAD3021DBE66700E879A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DAD2F21DBE66700E879A1 /* AppDelegate.swift */; };
-		F63DAD3221DBE66700E879A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DAD3121DBE66700E879A1 /* ViewController.swift */; };
+		F63DAD3221DBE66700E879A1 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DAD3121DBE66700E879A1 /* MainVC.swift */; };
 		F63DAD3521DBE66700E879A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63DAD3321DBE66700E879A1 /* Main.storyboard */; };
 		F63DAD3721DBE66800E879A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63DAD3621DBE66800E879A1 /* Assets.xcassets */; };
 		F63DAD3A21DBE66800E879A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63DAD3821DBE66800E879A1 /* LaunchScreen.storyboard */; };
+		F63DAD4421DBE87500E879A1 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DAD4321DBE87500E879A1 /* CurrencyTxtField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F63DAD2C21DBE66700E879A1 /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63DAD2F21DBE66700E879A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F63DAD3121DBE66700E879A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F63DAD3121DBE66700E879A1 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		F63DAD3421DBE66700E879A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F63DAD3621DBE66800E879A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F63DAD3921DBE66800E879A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F63DAD3B21DBE66800E879A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63DAD4321DBE87500E879A1 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		F63DAD2E21DBE66700E879A1 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				F63DAD4221DBE84900E879A1 /* Views */,
+				F63DAD4121DBE75800E879A1 /* Controller */,
 				F63DAD2F21DBE66700E879A1 /* AppDelegate.swift */,
-				F63DAD3121DBE66700E879A1 /* ViewController.swift */,
 				F63DAD3321DBE66700E879A1 /* Main.storyboard */,
 				F63DAD3621DBE66800E879A1 /* Assets.xcassets */,
 				F63DAD3821DBE66800E879A1 /* LaunchScreen.storyboard */,
 				F63DAD3B21DBE66800E879A1 /* Info.plist */,
 			);
 			path = "window-shopper";
+			sourceTree = "<group>";
+		};
+		F63DAD4121DBE75800E879A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F63DAD3121DBE66700E879A1 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F63DAD4221DBE84900E879A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F63DAD4321DBE87500E879A1 /* CurrencyTxtField.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F63DAD3221DBE66700E879A1 /* ViewController.swift in Sources */,
+				F63DAD4421DBE87500E879A1 /* CurrencyTxtField.swift in Sources */,
+				F63DAD3221DBE66700E879A1 /* MainVC.swift in Sources */,
 				F63DAD3021DBE66700E879A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
